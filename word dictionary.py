@@ -7,7 +7,7 @@ with open('dictionary.txt') as f:
         D[key]=values
 print(D)
 
-# 카테고리화 고민
+# 카테고리 제작
 # 1.일상생활
 대화=[]
 시간=[]
