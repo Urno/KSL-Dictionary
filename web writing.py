@@ -1,6 +1,6 @@
 #한국수어사전 웹 크롤링
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #기존의 방법과 달리 크롤링 가능, 현재 문제점을 개선할 수 있을 것으로 예
 import re
 
 for x in range(100): #사전 단어 긁어오기 (수어사전의 단어 수가 약 23000개 정도)
